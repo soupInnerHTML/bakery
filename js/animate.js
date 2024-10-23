@@ -8,7 +8,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-// Наблюдаем за элементами с классом fade-in
+// Наблюдаем за элементами с классом appear
 document.querySelectorAll('.appear').forEach((element) => {
     observer.observe(element);
 });
