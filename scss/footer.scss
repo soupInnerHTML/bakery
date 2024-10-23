@@ -1,0 +1,18 @@
+$delay-values: 0s, 0.5s, 0.8s, 1s;
+
+.footer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  &__link {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  @for $i from 1 through length($delay-values) {
+    &__link:nth-of-type(#{$i}) {
+      animation-delay: nth($delay-values, $i);
+    }
+  }
+}

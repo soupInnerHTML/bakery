@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <main>
+        <section class="preview">
+            <header class="header container">
+                <img class="header__logo appear" src="assets/icons/logo.svg" alt="">
+                <nav class="header__menu">
+                    <a class="header__menu__link appear" href="#">о нас</a>
+                    <a class="header__menu__link appear" href="#">новости</a>
+                    <a class="header__menu__link appear" href="#">меню</a>
+                    <a class="header__menu__link appear" href="#">контакты</a>
+                </nav>
+            </header>
+
+            <section class="special-order">
+                <div class="container">
+                    <div class="special-order__card appear">
+                        <div class="special-order__card__content">
+                            <h2 class="special-order__card__content__header">Специальный заказ</h2>
+                            <p class="special-order__card__content__description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In maiores nesciunt numquam omnis quasi, quod rem reprehenderit sapiente sint voluptatem. Accusamus adipisci blanditiis consectetur culpa debitis dicta dignissimos facere incidunt laudantium, magnam mollitia optio, sapiente sit tempora ullam velit vitae.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="bakery container">
+            <img class="bakery__icon appear" src="assets/icons/bakery3.svg" alt="bakery icon">
+            <img class="bakery__icon appear" src="assets/icons/bakery2.svg"  alt="bakery icon">
+            <img class="bakery__icon appear" src="assets/icons/bakery1.svg" alt="bakery icon">
+        </section>
+
+        <section class="order container">
+            <h2 class="order__title appear">
+                Выпечка - <span class="order__title__accent-element">это</span> вкусно
+            </h2>
+            <p class="order__description appear">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, aut delectus deleniti deserunt distinctio dolore doloremque dolorum fugiat illum ipsa ipsam laudantium maxime nihil, nisi nulla numquam quaerat repellat, sed sunt veniam. Autem dolores fuga hic maxime obcaecati odit praesentium, quod velit voluptas voluptatum? Culpa modi, temporibus? Aperiam assumenda atque consequuntur, cumque cupiditate doloremque enim iusto laboriosam maiores maxime minima obcaecati quae quas quibusdam quidem, recusandae, velit voluptatem! Cupiditate eligendi et fugiat ipsam molestiae nulla ratione saepe voluptate voluptates voluptatum? Accusantium aliquam aliquid at commodi cupiditate eum fugit id ipsa, itaque iusto nesciunt nostrum optio quae, quod, sed totam velit!
+            </p>
+            <!--      cta - call to action      -->
+            <h3 class="order__cta appear">Заказать</h3>
+
+            <div id="map" class="order__map appear"></div>
+        </section>
+
+        <hr class="separator">
+
+        <footer class="footer container">
+            <a class="footer__link appear" href="#">О нас</a>
+            <a class="footer__link appear" href="#">Новости</a>
+            <a class="footer__link appear" href="#">Меню</a>
+            <a class="footer__link appear" href="#">Контакты</a>
+        </footer>
+    </main>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=e6fa5386-0afd-496c-b56c-204f2ca5971a&lang=ru_RU" type="text/javascript"></script>
+    <script src="js/map.js"></script>
+    <script src="js/animate.js"></script>
+</body>
+</html>

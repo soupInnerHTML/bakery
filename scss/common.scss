@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #ffe2b0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.separator {
+  border: none; /* Убираем стандартную линию */
+  height: 1px; /* Устанавливаем высоту */
+  background-color: #999;
+  width: 1024px;
+  margin: 20px auto;
+}

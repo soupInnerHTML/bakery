@@ -1,0 +1,33 @@
+.order {
+  &__title {
+    font-family: "Philosopher", sans-serif;
+    font-size: 96px;
+    text-align: center;
+    font-weight: 200;
+    animation-delay: 1s;
+    &__accent-element {
+      color: #f15b40;
+    }
+  }
+  &__description {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    animation-delay: 1.2s;
+  }
+  //cta - call to action
+  &__cta {
+    margin: 20px 0;
+    font-size: 36px;
+    font-family: "Philosopher", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    animation-delay: 1.4s;
+  }
+  &__map {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    animation-delay: 1.5s;
+  }
+}

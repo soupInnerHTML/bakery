@@ -1,0 +1,17 @@
+$delay-values: 0s, 0.5s, 0.8s;
+
+.bakery {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  &__icon {
+    width: 290px;
+    height: 290px;
+  }
+
+  @for $i from 1 through length($delay-values) {
+    &__icon:nth-of-type(#{$i}) {
+        animation-delay: nth($delay-values, $i);
+    }
+  }
+}

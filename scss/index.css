@@ -1,0 +1,169 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ffe2b0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.separator {
+  border: none; /* Убираем стандартную линию */
+  height: 1px; /* Устанавливаем высоту */
+  background-color: #999;
+  width: 1024px;
+  margin: 20px auto;
+}
+
+.preview {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+}
+.header__logo {
+  margin-top: 3px;
+  animation-delay: 1.2s;
+}
+.header__menu {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.header__menu__link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+.header__menu__link:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.header__menu__link:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+.header__menu__link:nth-of-type(3) {
+  animation-delay: 0.8s;
+}
+.header__menu__link:nth-of-type(4) {
+  animation-delay: 1s;
+}
+
+.special-order {
+  background: url("../assets/images/bg.jpg") no-repeat center center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.special-order__card {
+  position: absolute;
+  top: 349px;
+  width: 429px;
+  height: 190px;
+  right: 0;
+  background: linear-gradient(180deg, rgba(244, 213, 178, 0.3), rgba(234, 156, 65, 0.8) 100%);
+  padding: 15px;
+  animation-delay: 1.5s;
+}
+.special-order__card__content {
+  border: 2px solid #000;
+  height: 100%;
+  padding: 0 28px;
+}
+.special-order__card__content__header {
+  font-size: 36px;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 200;
+  margin: 17px 0 9px;
+}
+.special-order__card__content__description {
+  font-size: 14px;
+}
+
+.bakery {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.bakery__icon {
+  width: 290px;
+  height: 290px;
+}
+.bakery__icon:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.bakery__icon:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+.bakery__icon:nth-of-type(3) {
+  animation-delay: 0.8s;
+}
+
+.order__title {
+  font-family: "Philosopher", sans-serif;
+  font-size: 96px;
+  text-align: center;
+  font-weight: 200;
+  animation-delay: 1s;
+}
+.order__title__accent-element {
+  color: #f15b40;
+}
+.order__description {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  animation-delay: 1.2s;
+}
+.order__cta {
+  margin: 20px 0;
+  font-size: 36px;
+  font-family: "Philosopher", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  animation-delay: 1.4s;
+}
+.order__map {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  animation-delay: 1.5s;
+}
+
+.footer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.footer__link {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer__link:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.footer__link:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+.footer__link:nth-of-type(3) {
+  animation-delay: 0.8s;
+}
+.footer__link:nth-of-type(4) {
+  animation-delay: 1s;
+}
+
+/*# sourceMappingURL=index.css.map */
